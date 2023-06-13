@@ -7,6 +7,23 @@
     android:background="@color/dark_gray"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:src="@drawable/linkedin"
+        android:transformPivotX="230dp"
+        android:transformPivotY="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="350dp"
